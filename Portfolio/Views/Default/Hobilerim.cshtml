@@ -1,0 +1,12 @@
+﻿@using Portfolio.Models.Entity
+@model List<TblHobilerim>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Hobilerim</h2>
+    @foreach (var item in Model)
+    {
+    <p>@item.Aciklama1</p>
+    <p class="mb-1">@item.Aciklama2</p>
+    <hr />
+    }
+</div>
